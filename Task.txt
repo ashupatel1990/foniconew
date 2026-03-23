@@ -51,3 +51,8 @@ transactions:
 ----
 To run schedular command manually:
 php artisan pdfs:delete
+
+https://fonico.ddev.site/storage/pdfs/INVOICE20260078-TrUoZFyIeW.pdf
+With my new generated file i am not able to accessible from url.
+Then run below command in Terminal:
+=> ln -s ../storage/app/public public/storage
