@@ -48,3 +48,6 @@ transactions:
   updated_at
   deleted_at
 
+----
+To run schedular command manually:
+php artisan pdfs:delete
